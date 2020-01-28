@@ -5,7 +5,7 @@ import App from './App';
 
 const Root = () => {
     return (
-        <BrowserRouter basename={'' || '/restaurant-app'}>
+        <BrowserRouter basename={'' ||'/restaurant-app'}>
             <App />
         </BrowserRouter>
     );
