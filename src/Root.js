@@ -5,7 +5,7 @@ import App from './App';
 
 const Root = () => {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL || '' || '/restaurant-app'}>
+        <BrowserRouter basename={'' || '/restaurant-app'}>
             <App />
         </BrowserRouter>
     );
