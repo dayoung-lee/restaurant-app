@@ -1,11 +1,14 @@
+// src/Root.js
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import {HashRouter} from 'react-router-dom';
 import App from '../App';
 
-const Root = () => (
-    <BrowserRouter>
-        <App/>
-    </BrowserRouter>
-);
+const Root = () => {
+    return (
+        <HashRouter basename={'/' || `${process.env.PUBLIC_URL}`}>
+            <App />
+        </HashRouter>
+    );
+};
 
 export default Root;
