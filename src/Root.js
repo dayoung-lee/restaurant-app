@@ -5,7 +5,7 @@ import App from './App';
 
 const Root = () => {
     return (
-        <HashRouter basename={'/' || `${process.env.NODE_ENV}`}>
+        <HashRouter basename={'/' || `${process.env.PUBLIC_URL}`}>
             <App />
         </HashRouter>
     );
