@@ -27,7 +27,7 @@ class Menu extends Component{
                     <li><Link to = "/review">Reviews</Link></li>
                     </ul>
                 </nav>               
-                <div id = 'logo' ><a href = "/"><img src = {logo} alt = "logo"/></a></div>
+                <div id = 'logo' ><Link to = "/"><img src = {logo} alt = "logo"/></Link></div>
 
                 <div className = "menu">
                     <p>MENU</p>

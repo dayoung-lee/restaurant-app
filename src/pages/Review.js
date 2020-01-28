@@ -52,7 +52,7 @@ class Review extends Component{
                     <li><Link to = "/review" style = {menuColor}>Reviews</Link></li>
                     </ul>
                 </nav>               
-                <div id = 'logo' ><a href = "/"><img src = {logo}/></a></div>
+                <div id = 'logo' ><Link to = "/"><img src = {logo}/></Link></div>
                 <img id = "reviewImg" src = {reviewImage}/>
                 <div className = "review">
                     <p>Review</p>

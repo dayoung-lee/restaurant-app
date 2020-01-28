@@ -26,7 +26,7 @@ class About extends Component{
                     <li><Link to = "/review">Reviews</Link></li>
                     </ul>
                 </nav>
-                <div id = 'logo' ><a href = "/"><img src = {logo}/></a></div>
+                <div id = 'logo' ><Link to = "/"><img src = {logo}/></Link></div>
                 <div id = "aboutImg" style = {backgroundStyle}></div>
                 
                 <div id = "aboutContent">
