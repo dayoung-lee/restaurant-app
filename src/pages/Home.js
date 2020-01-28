@@ -17,6 +17,7 @@ var menuColor = {
 class Home extends Component{
     render(){
         return(
+            <div className = "homeBody">
             <div style = {backgroundStyle}>        
             <nav>        
                 <ul>
@@ -76,6 +77,7 @@ class Home extends Component{
                   </div>
             </div>
                   
+            </div>
           </div>
         );
     }
